@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #EFF5F5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nav-bar {
+    background-color: #002B5B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-bar > a {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-bar > a:hover {
+    background-color: #1A5F7A;
+    color: white;
+    text-decoration: none;
+    border-bottom: 4px solid #E7B10A;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #F1F9F9;
+}
+
+th {
+    background-color: #002B5B;
+    width: 100px;
+    padding: 30px;
+    color: white;
+    text-align: left;
+}
+
+td {
+    border-top: 1px solid #EFF5F5;
+    padding: 30px;
+    text-align: left;
+    color: #2D2727;
+
+}
+
+td > a {
+    text-decoration: none;
+    color: #2D2727;
+}
+
+.form-index {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.btn-index {
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #E7B10A;
+    padding: 20px;
+    background-color: #1A5F7A;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-index:hover {
+    background-color: #579BB1;
+    color: white;
+}
+
+.title {
+    border-radius: 5px;
+    border-bottom: 3px solid #E7B10A;
+    background-color: #002B5B;
+    color: white;
+    padding: 20px;
+    width: 360px;
+}
+
+.details-box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.destination-box {
+    padding: 0 20px 2px 20px;
+    border-bottom: 1px solid #C4D7E0;
+}
+
+.add-destination {
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #E7B10A;
+    padding: 20px;
+    background-color: #1A5F7A;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-destination {
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #002B5B;
+    padding: 10px;
+    background-color: #E7B10A;
+    color: white;
+    cursor: pointer;
+}
+
+.add-flight {
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #E7B10A;
+    padding: 30px;
+    background-color: #1A5F7A;
+    color: white;
+    cursor: pointer;
+}
+
